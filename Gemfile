@@ -22,6 +22,10 @@ dbfile = File.expand_path("../config/database.yml", __FILE__)
 group :production do
   gem 'pg'
 end
+ 
+group :development do
+  gem 'sqlite'
+end
 
 source 'https://rubygems.org'
 ruby "1.9.2"
