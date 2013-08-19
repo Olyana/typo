@@ -23,10 +23,6 @@ group :production do
   gem 'pg'
 end
  
-group :development do
-  gem 'sqlite'
-end
-
 source 'https://rubygems.org'
 ruby "1.9.2"
 
